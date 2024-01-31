@@ -1,3 +1,6 @@
+/*
+returns all unique player ids first login date
+*/
 Select
 player_id,
 min(event_date) as first_login
